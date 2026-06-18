@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Mercury retrograde really moves you — Zodimithra Journal</title>
+<meta name="description" content="Beyond the memes — a Vedic reading of what to release, and what to reweave during Mercury retrograde.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* Cosmic hero */
+  .post-hero{position:relative;min-height:520px;padding:160px 0 80px;color:#fdfbf6;overflow:hidden;
+    background:
+      radial-gradient(ellipse at 20% 20%, rgba(140,90,200,.55), transparent 55%),
+      radial-gradient(ellipse at 80% 30%, rgba(80,40,140,.55), transparent 60%),
+      radial-gradient(ellipse at 50% 100%, rgba(232,180,140,.35), transparent 55%),
+      linear-gradient(180deg,#1a0e2e 0%, #2a1640 40%, #4a2050 75%, #d99a78 100%);
+  }
+  .post-hero:before{content:"";position:absolute;inset:0;
+    background-image:
+      radial-gradient(1px 1px at 20% 30%, #fff, transparent),
+      radial-gradient(1px 1px at 70% 20%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 40% 60%, #fff, transparent),
+      radial-gradient(1px 1px at 85% 70%, #fff, transparent),
+      radial-gradient(1px 1px at 15% 80%, #fff, transparent),
+      radial-gradient(1px 1px at 55% 40%, #fff, transparent),
+      radial-gradient(1px 1px at 92% 45%, #fff, transparent),
+      radial-gradient(1.2px 1.2px at 35% 25%, #fff, transparent);
+    opacity:.75;pointer-events:none}
+  .post-hero .shoot{position:absolute;top:38%;left:38%;width:160px;height:1px;
+    background:linear-gradient(90deg,transparent,#fff,transparent);transform:rotate(-12deg);opacity:.8}
+  .post-hero .container{position:relative;z-index:2;max-width:980px}
+  .post-hero .cat{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-2);margin-bottom:18px;display:inline-block}
+  .post-hero h1{font-family:var(--serif);font-size:clamp(36px,5.2vw,68px);font-weight:500;color:#fdfbf6;
+    line-height:1.08;max-width:780px}
+  .post-hero .meta{margin-top:22px;font-size:13px;letter-spacing:.05em;color:rgba(253,251,246,.7)}
+
+  /* Article body */
+  .article-wrap{position:relative;padding:80px 0 100px;background:var(--bg)}
+  .article-grid{display:grid;grid-template-columns:60px 1fr;gap:40px;max-width:880px;margin:0 auto;align-items:start}
+  .share{position:sticky;top:120px;display:flex;flex-direction:column;gap:12px}
+  .share a{width:40px;height:40px;border-radius:50%;background:#fff;border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;color:var(--muted);transition:.2s;font-size:14px}
+  .share a:hover{color:var(--gold);border-color:var(--gold)}
+  .article{background:#fff;border:1px solid var(--line);border-radius:24px;padding:60px;
+    box-shadow:0 30px 60px rgba(31,26,20,.06)}
+  .article p{color:#3a322a;font-size:17px;line-height:1.75;margin-bottom:20px}
+  .article p.lead{font-family:var(--serif);font-size:22px;font-style:italic;color:#2a221b;line-height:1.5;margin-bottom:32px}
+  .article h2{font-family:var(--serif);font-size:34px;font-weight:500;margin:40px 0 18px;color:#1f1a14}
+  .article blockquote{border-left:3px solid var(--gold);padding:6px 0 6px 22px;margin:28px 0;
+    font-family:var(--serif);font-style:italic;font-size:22px;color:#2a221b;line-height:1.45}
+
+  /* Related */
+  .related-wrap{padding:30px 0 100px;background:var(--bg)}
+  .related-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:32px}
+  .related-head h2{font-family:var(--serif);font-size:42px;font-weight:500}
+  .related-head a{color:var(--muted);font-size:14px}
+  .related-head a:hover{color:var(--gold)}
+  .related{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+  .rcard{background:#fff;border-radius:18px;overflow:hidden;border:1px solid var(--line);
+    box-shadow:0 14px 40px rgba(31,26,20,.05);transition:.25s;display:block}
+  .rcard:hover{transform:translateY(-4px);box-shadow:0 22px 50px rgba(31,26,20,.1)}
+  .rcard .img{aspect-ratio:16/11;overflow:hidden}
+  .rcard .img img{width:100%;height:100%;object-fit:cover}
+  .rcard .body{padding:22px 24px 26px}
+  .rcard .tag{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block}
+  .rcard h3{font-family:var(--serif);font-size:22px;font-weight:500;color:#1f1a14}
+
+  /* Dark footer */
+  .footer-dark{background:#1a140e;color:#d8cfc1;padding:70px 0 30px}
+  .footer-dark .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:50px;margin-bottom:50px}
+  .footer-dark .brand{color:#fdfbf6;margin-bottom:18px}
+  .footer-dark p{color:#9a8f80;font-size:14px;line-height:1.7;max-width:260px}
+  .footer-dark h4{font-family:var(--sans);font-size:12px;letter-spacing:.3em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:18px;font-weight:500}
+  .footer-dark ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+  .footer-dark ul a, .footer-dark .info{color:#d8cfc1;font-size:14.5px}
+  .footer-dark ul a:hover{color:var(--gold)}
+  .footer-dark .info{display:block;margin-bottom:10px}
+  .socials{display:flex;gap:10px}
+  .socials a{width:38px;height:38px;border-radius:50%;border:1px solid #3a302a;color:var(--gold);
+    display:flex;align-items:center;justify-content:center;font-size:14px;transition:.2s}
+  .socials a:hover{background:var(--gold);color:#1a140e;border-color:var(--gold)}
+  .footer-bottom{border-top:1px solid #2a221b;padding-top:24px;display:flex;justify-content:space-between;
+    color:#7a7060;font-size:13px;letter-spacing:.05em}
+  .footer-bottom .tagline{letter-spacing:.3em;text-transform:uppercase;font-size:11px}
+
+  @media (max-width:900px){
+    .article-grid{grid-template-columns:1fr;gap:20px}
+    .share{flex-direction:row;position:static;justify-content:flex-start}
+    .article{padding:36px 26px}
+    .related{grid-template-columns:1fr}
+    .footer-dark .cols{grid-template-columns:1fr 1fr;gap:30px}
+    .footer-bottom{flex-direction:column;gap:10px;text-align:center}
+  }
+</style>
+</head>
+<body>
+<div class="nav-wrap"><nav class="nav">
+  <a href="index.html" class="brand"><span class="dot"></span> ZODIMITHRA</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html" class="active">Blogs</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-cta"><span class="lang">🌐 EN ▾</span><a class="btn btn-primary" href="download.html">Download App</a><button class="menu-btn">☰</button></div>
+</nav></div>
+
+<header class="post-hero">
+  <span class="shoot"></span>
+  <div class="container">
+    <span class="cat">Horoscope</span>
+    <h1>How Mercury retrograde really moves you</h1>
+    <p class="meta">May 10, 2026 · 6 min read</p>
+  </div>
+</header>
+
+<section class="article-wrap">
+  <div class="container">
+    <div class="article-grid">
+      <aside class="share" aria-label="Share">
+        <a href="#" title="Share"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></a>
+        <a href="#" title="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.8c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.2-.8.5-1.7.8-2.6 1-1.5-1.6-4-1.7-5.6-.2-1 1-1.5 2.5-1.2 3.9-3.3-.2-6.2-1.7-8.1-4.3-1.1 1.9-.5 4.3 1.3 5.5-.6 0-1.3-.2-1.8-.5 0 2 1.4 3.7 3.3 4.1-.6.2-1.2.2-1.8.1.5 1.6 2 2.8 3.8 2.8-1.7 1.3-3.8 1.9-5.8 1.5 1.9 1.2 4.1 1.9 6.3 1.9 7.6 0 11.8-6.3 11.5-12 .8-.6 1.5-1.3 2.1-2.1z"/></svg></a>
+        <a href="#" title="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H8v3h3v7h3v-7h3l1-3h-4V9z"/></svg></a>
+        <a href="#" title="Copy link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/></svg></a>
+      </aside>
+
+      <article class="article">
+        <p class="lead">Beyond the memes — a Vedic reading of what to release, and what to reweave.</p>
+
+        <p>There is a quiet doorway in classical Vedic astrology that modern conversations often skip past. It does not begin with Sun signs, nor even with planets. It begins with the Moon — and where she happens to be standing at the moment of your birth.</p>
+
+        <p>The ancients mapped the sky not in twelve, but in twenty-seven slices, each governed by a presiding deity, a symbol, a sound, a temperament. They called these the Nakshatras — lunar mansions, the rooms in which the Moon rests as she travels.</p>
+
+        <h2>A different way of seeing</h2>
+        <p>Where the western chart describes a personality, the Nakshatra describes a texture — a mood, a karmic inclination, a particular way the soul learns. Two people with the same Sun sign can hold wildly different Nakshatras, and feel, to themselves, like entirely different beings.</p>
+
+        <blockquote>"The Moon does not change the sky, but she changes the way the sky feels."</blockquote>
+
+        <p>In the chapters that follow, we'll walk through a handful of Nakshatras — not to label, but to listen. What each one is whispering, when it shows up in your chart.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="related-wrap">
+  <div class="container">
+    <div class="related-head">
+      <h2>Related insights</h2>
+      <a href="blog.html">← All articles</a>
+    </div>
+    <div class="related">
+      <a class="rcard" href="blog-detail.html">
+        <div class="img"><img src="https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?auto=format&fit=crop&w=1200&q=80" alt=""></div>
+        <div class="body"><span class="tag">Spirituality</span><h3>The hidden language of the Nakshatras</h3></div>
+      </a>
+      <a class="rcard" href="blog-detail.html">
+        <div class="img"><img src="https://images.unsplash.com/photo-1530210124550-912dc1381cb8?auto=format&fit=crop&w=1200&q=80" alt=""></div>
+        <div class="body"><span class="tag">Relationships</span><h3>Compatibility, the Vedic way</h3></div>
+      </a>
+      <a class="rcard" href="blog-detail.html">
+        <div class="img"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80" alt=""></div>
+        <div class="body"><span class="tag">Career</span><h3>Dashas and the seasons of work</h3></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-dark">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="brand"><span class="dot"></span> ZODIMITHRA</div>
+        <p>Ancient wisdom meets modern intelligence. Personalized cosmic guidance for the seekers of clarity.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <span class="info">Contact us</span>
+        <span class="info">hello@zodimithra.com</span>
+        <span class="info">+91 99000 00000</span>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">◉</a>
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Zodimithra. All rights reserved.</span>
+      <span class="tagline">Ancient · Modern · Cosmic</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body></html>
